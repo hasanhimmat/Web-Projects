@@ -1,0 +1,204 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Basic Setup*/
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+/* Header Area */
+header {
+  background-color: #F0FFF0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.e-school-logo {
+  max-width: 200px;
+}
+
+.e-school-nav-btn {
+  color: rgba(0, 0, 0, .5);
+  border-color: rgba(0, 0, 0, .1);
+}
+
+.e-school-nav li {
+  margin: 0 15px;
+}
+
+.e-school-nav li a {
+  color: #000000;
+}
+
+/* e-School Button */
+.e-school-btn {
+  width: 100px;
+  color: #ffffff !important;
+  background-color: #21B573;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Toggle */
+.e-school-nav-btn i {
+  font-size: 25px;
+  padding: 2px;
+}
+
+.e-school-hero {
+  margin-top: 40px;
+}
+
+.e-school-hero-content p {
+  color: #FD511A;
+  line-height: 24px;
+}
+
+.e-school-hero-content h1 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.e-school-hero-content span {
+  color: #21B573;
+}
+
+.e-school-hero small {
+  color: #6b6b6b;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.e-school-hero .e-school-btn {
+  padding: 10px 30px;
+}
+
+/* Info Area */
+.info {
+  margin-top: 20px;
+  padding: 40px 0;
+}
+
+.info-box .card {
+  background-color: #F8FFFB;
+  border: none;
+  padding: 60px 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #e8e8e8;
+}
+
+.info-box-2 .card {
+  background-color: #ffffff !important;
+}
+
+.info-box .card-body {
+  padding: 0;
+  margin-top: 25px;
+}
+
+.info-box .card h4 {
+  font-size: 24px;
+  color: #413960;
+}
+
+.info-box .card p {
+  color: #585859;
+}
+
+.info-box .card img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Course Area */
+.course .e-school-title, .testimonial .e-school-title {
+  font-size: 36px;
+  color: #413960;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 100px;
+}
+
+.course .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #e8e8e8;
+  padding: 25px;
+}
+
+.course .card .card-body {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.course .card .card-body h4 {
+  color: #413960;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.course .card .card-body p {
+  color: #585859;
+  line-height: 24px;
+}
+
+.course .e-school-btn {
+  padding: 5px 20px;
+}
+
+.course .card .card-footer {
+  background-color: #ffffff;
+  border-top: none;
+  padding: 0;
+}
+
+.course .card .card-footer a {
+  color: #585859;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Testimonial Area */
+.testimonial {
+  padding: 0 0 40px 0;
+}
+
+.testimonial img {
+  max-width: 120px;
+}
+
+/* Footer Area */
+footer {
+  background-color: #282531;
+  padding: 50px 80px 20px 80px;
+}
+
+.footer-container {
+  margin-bottom: 0 !important;
+}
+
+footer .course, footer .course a {
+  color: #ffffff;
+  line-height: 30px;
+}
+
+footer .course p {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+footer .license {
+  color: #CDCDCD;
+  text-align: center;
+  margin-top: 80px;
+}

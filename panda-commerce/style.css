@@ -1,0 +1,69 @@
+/* Basic Typography */
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin-bottom: 100px;
+}
+
+/* Header Area */
+.coustom-background{
+    background-color: #feeae9;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.carousel-item h2{
+    color: #FF136F;
+    font-size: 40px;
+}
+
+.panda-btn{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* Items Area */
+
+.items img{
+    width: 110px;
+}
+
+.items .item-1{
+    background-color: #FFA500;
+}
+
+.items .item-2{
+    background-color: #DA70D6;
+}
+
+.items .item-3{
+    background-color: #0000FF;
+}
+
+.item-1, .item-2, .item-3{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Shoes Area */
+.shoes .card, .backpack .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.subscribe{
+    border-radius: 10px;
+    height: 300px;
+    background-color: #fceae8;
+}
+
+.subscribe h6{
+    color: #524c4c;
+}

@@ -1,0 +1,82 @@
+html{
+	scroll-behavior: smooth;
+}
+.container{
+	margin-bottom: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #928e8e;
+    font-weight: 600;
+}
+
+.hot-btn{
+	border-radius: 20px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+
+/* div#carouselExampleIndicators {
+	background-color: #fbfbfb;
+    border-radius: 20px;
+} */
+
+.carousel-item{
+	padding: 20px 40px;
+}
+
+.carousel-indicators .slide-changer{
+	background-color: #4c7b6e;
+	padding: 2px 0;
+	border-radius: 10px;
+}
+
+.smartphone .card, .laptop .card{
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightgray;
+	margin-right: 30px;
+}
+
+.smartphone-3, .laptop-3{
+	margin-left: 0 !important;
+}
+
+.smartphone-title, .laptop-title{
+	margin-bottom: 40px;
+}
+
+.smartphone-title h6, .laptop-title h6{
+	color: tomato;
+}
+
+
+/* categories */
+.container.bg-light.categories-box {
+	padding: 50px 80px;
+    border-radius: 10px;
+}
+
+.categories-title{
+	margin-bottom: 80px;
+}
+
+.cat-after{
+	width:  100px;
+	padding: 5px;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #e46f6f 0%, #ffb122 100%)
+}
+
+
+.img-bg{
+	max-width:  150px;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 10px 20px 30px 5px;
+	box-shadow: 2px 2px 5px lightgray;
+}
